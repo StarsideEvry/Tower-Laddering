@@ -1,0 +1,55 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#score {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 8em;
+  font-weight: 256;
+}
+
+#introduction {
+  width: 256px;
+  height: 128px;
+  position: absolute;
+  font-weight: 512;
+  font-size: 1em;
+  text-align: center;
+  transition: opacity 1s;
+}
+
+#restart {
+  width: 128px;
+  height: 128px;
+  position: absolute;
+  border-radius: 100%;
+  color: rgb(75, 156, 8);
+  background-color: rgb(3, 55, 114);
+  border: none;
+  font-weight: 256;
+  font-size: 2em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: none;
+  cursor: pointer;
+}
+
+#perfect {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 3s;
+}
